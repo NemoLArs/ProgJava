@@ -12,17 +12,12 @@ public class Hangman {
 	private static int count;
 	private static int guesses = 6;
 	
-	
-	WordSecret wordSecret = new WordSecret();
-	
-	
 	private class WordSecret {
 		
 		 private static final String CHOOSEN_WORD = "santa";
 		
 	}
 	
-
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
